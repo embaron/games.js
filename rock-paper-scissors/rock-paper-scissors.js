@@ -17,23 +17,24 @@ var compare = function(choice1, choice2) {
         return "The result is a tie!";
     } else if(choice1 === "rock") {
         if(choice2 === "scissors") {
-            return "Rock wins";
+            return "You win!";
 	} else {
-            return "Paper wins";}
+            return "Computer wins";}
     } else if(choice1 === "paper") {
         if(choice2 === "rock") {
-            return "paper wins";
+            return "You win!";
 	} else {
-            return "scissors wins";
+            return "Computer wins!";
 	}
     }
     else if(choice1 === "scissors") {
         if(choice2 === "rock") {
-            return "rock wins";
+            return "Computer wins!";
 	} else {
-            return "scissors wins";
+            return "You win!";
 	}
     }
 }
-}
+
 alert(compare(userChoice, computerChoice));
+}
