@@ -1,3 +1,4 @@
+function myFunction() {
 var userChoice = prompt("Do you choose rock, paper or scissors?");
 
 var computerChoice = Math.random();
@@ -34,5 +35,5 @@ var compare = function(choice1, choice2) {
 	}
     }
 }
-
+}
 alert(compare(userChoice, computerChoice));
