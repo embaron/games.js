@@ -1,8 +1,11 @@
-
 body {
   font-family: 'Lato',arial,sans-serif;
   font-size: 100%;
   text-align: center;
   margin: auto;
   padding: 10em;
+}
+img {
+  height: 100px;
+  padding: 10px;
 }
